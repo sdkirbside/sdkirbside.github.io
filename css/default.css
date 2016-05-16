@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url(../font/sourcesanspro-black-webfont.eot);
+    src: url(../font/sourcesanspro-black-webfont.eot?#iefix) format("embedded-opentype"),url(../font/sourcesanspro-black-webfont.woff2) format("woff2"),url(../font/sourcesanspro-black-webfont.woff) format("woff"),url(../font/sourcesanspro-black-webfont.ttf) format("truetype"),url(../font/sourcesanspro-black-webfont.svg#source_sans_problack) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url(../font/sourcesanspro-regular-webfont.eot);
+    src: url(../font/sourcesanspro-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../font/sourcesanspro-regular-webfont.woff2) format("woff2"),url(../font/sourcesanspro-regular-webfont.woff) format("woff"),url(../font/sourcesanspro-regular-webfont.ttf) format("truetype"),url(../font/sourcesanspro-regular-webfont.svg#source_sans_proregular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url(../font/robotoslab-regular-webfont.eot);
+    src: url(../font/robotoslab-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../font/robotoslab-regular-webfont.woff2) format("woff2"),url(../font/robotoslab-regular-webfont.woff) format("woff"),url(../font/robotoslab-regular-webfont.ttf) format("truetype"),url(../font/robotoslab-regular-webfont.svg#roboto_slabregular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_slabbold';
+    src: url(../font/robotoslab-bold-webfont.eot);
+    src: url(../font/robotoslab-bold-webfont.eot?#iefix) format("embedded-opentype"),url(../font/robotoslab-bold-webfont.woff2) format("woff2"),url(../font/robotoslab-bold-webfont.woff) format("woff"),url(../font/robotoslab-bold-webfont.ttf) format("truetype"),url(../font/robotoslab-bold-webfont.svg#roboto_slabbold) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bold {
+    font-family: 'source_sans_problack',Arial,sans-serif;
+}
+
+.block {
+    display: block;
+}
+
+.content-body {
+    margin: 0 auto;
+    padding: 3em 2em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content-body h1 {
+    margin: 0 auto;
+    font-size: 3.2em;
+    line-height: 1;
+    font-family: 'source_sans_problack',Arial,sans-serif;
+    text-transform: uppercase;
+}
+
+.content-body h1 a {
+    font-family: 'source_sans_problack',Arial,sans-serif;
+}
+
+.content-body h2 {
+    margin: 0 auto;
+    font-size: 2em;
+    line-height: 1;
+    font-family: 'source_sans_problack',Arial,sans-serif;
+    text-transform: uppercase;
+}
+
+.content-body h3 {
+    margin: 0 auto -1%;
+    font-size: 1.3em;
+    line-height: 1;
+    font-family: 'source_sans_problack',Arial,sans-serif;
+    text-transform: lowercase;
+}
+
+.content-body p {
+    width: 75%;
+    margin: 3% auto 0;
+    text-align: left;
+}
+
+.content-body a {
+    text-decoration: none;
+    outline: none;
+    font-family: 'roboto_slabbold',Arial,sans-serif;
+}
+
+.content-body a:hover,.content-body a:focus {
+    outline: none;
+}
+
+.fontColor1,.fontColor1 a {
+    color: #FFFF9D;
+}
+
+.fontColor2 {
+    color: #FFB8AA;
+}
+
+.fontColor3 {
+    color: #2C2C2C;
+}
+
+.fontColor4,.fontColor4 a {
+    color: #FF5F38;
+}
+
+.fontColorBeer {
+    color: #FAE398;
+}
+
+p.center {
+    text-align: center;
+}
+
+.bgColorBeer {
+    background-color: #996A3E;
+}
+
+.bgColor1 {
+    background-color: #FF6138;
+}
+
+.bgColor2 {
+    background-color: #FFFF9D;
+}
+
+a.linkColor1 {
+    color: #FFFF9D;
+}
+
+a.linkColor1:hover,a.linkColor1:focus {
+    color: #FF5F38;
+    background-color: #FFFF9D;
+}
+
+a.linkColor2 {
+    color: #FF5F38;
+}
+
+a.linkColor2:hover,a.linkColor2:focus {
+    color: #FFFF9D;
+    background-color: #FF5F38;
+}
+
+body {
+    color: #fffce1;
+    font-size: 1.3em;
+    font-family: 'roboto_slabregular',Arial,sans-serif;
+}
+
+button:focus {
+    outline: none;
+}
+
+section {
+    padding: 1em;
+    text-align: center;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+}
+
+.column .imageRight {
+    float: right;
+    margin-left: 5%;
+}
+
+.column .imageLeft {
+    float: left;
+    margin-right: 5%;
+}
+
+.column .headingRight {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.column .headingLeft {
+    text-align: left;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 479px) {
+    body {
+        font-size: 80%;
+    }
+
+    .content-body h1 {
+        font-size: 2.2em;
+    }
+
+    .content-body h2 {
+        font-size: 1.8em;
+    }
+
+    .content-body h3 {
+        font-size: 1em;
+    }
+
+    .column {
+        width: 100%;
+        float: none;
+        margin-top: 5%;
+    }
+
+    .column .imageRight {
+        display: none;
+    }
+
+    .column .imageLeft {
+        display: none;
+    }
+
+    .column .headingRight {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .column .headingLeft {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .content-body p {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        font-size: 90%;
+    }
+
+    .content-body h1 {
+        font-size: 2.2em;
+    }
+
+    .content-body h2 {
+        font-size: 1.8em;
+    }
+
+    .content-body h3 {
+        font-size: 1em;
+    }
+}
